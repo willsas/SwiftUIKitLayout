@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+.netrc
+
+# Swift Package Manager
+.build/
+Package.resolved
+/Packages
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+DerivedData/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
