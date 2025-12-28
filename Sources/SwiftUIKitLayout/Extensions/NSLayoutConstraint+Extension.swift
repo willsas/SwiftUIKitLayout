@@ -14,4 +14,11 @@ public extension NSLayoutConstraint {
             subview.bottomAnchor.constraint(equalTo: superview.bottomAnchor)
         ]
     }
+    
+    static func center(_ subview: UIView, in superview: UIView) -> [NSLayoutConstraint] {
+        [
+            subview.centerXAnchor.constraint(equalTo: superview.centerXAnchor),
+            subview.centerYAnchor.constraint(equalTo: superview.centerYAnchor)
+        ]
+    }
 }
